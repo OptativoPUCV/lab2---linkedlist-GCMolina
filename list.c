@@ -71,7 +71,6 @@ void pushFront(List * list, void * data) {
     nodede->next=list->head;
     list->head->prev=nodede;
     list->head=nodede;
-    return list->head->data;
   }
   return NULL;
 }
