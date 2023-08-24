@@ -163,3 +163,16 @@ Thu 24 Aug 2023 08:19:07 PM UTC:
  tests:  6|4
 total_score: 25/70
 3e889da
+Thu 24 Aug 2023 08:20:21 PM UTC: 
+ list.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘prevList’:
+list.c:63:28: error: expected ‘;’ before ‘}’ token
+   63 |     return list->head->data
+      |                            ^
+      |                            ;
+   64 |   }
+      |   ~                         
+Compilation failed
+7cbaafb
