@@ -517,3 +517,16 @@ list.c:98:32: error: expected ‘;’ before ‘}’ token
       |     ~                           
 Compilation failed
 819fc91
+Fri 25 Aug 2023 01:55:41 AM UTC: 
+ list.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘pushCurrent’:
+list.c:98:32: error: expected ‘;’ before ‘}’ token
+   98 |     list->current->next =nodede
+      |                                ^
+      |                                ;
+   99 |     }
+      |     ~                           
+Compilation failed
+31f497c
