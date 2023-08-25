@@ -125,6 +125,8 @@ void * popCurrent(List * list) {
     }
     if(nodede->next!=NULL){
       nodede->next->prev=nodede->prev;
+    }else{
+      list->tail=nodede->prev;
     }
     return list->current->data;
   }
