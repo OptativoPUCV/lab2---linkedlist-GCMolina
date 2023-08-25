@@ -504,3 +504,16 @@ Thu 24 Aug 2023 09:02:47 PM UTC:
  tests:  10|2
 total_score: 45/70
 e70badb
+Fri 25 Aug 2023 01:55:19 AM UTC: 
+ list.c | 12 +++++++++---
+ 1 file changed, 9 insertions(+), 3 deletions(-)
+In file included from test.c:5:
+list.c: In function ‘pushCurrent’:
+list.c:98:32: error: expected ‘;’ before ‘}’ token
+   98 |     list->current->next =nodede
+      |                                ^
+      |                                ;
+   99 |     }else{
+      |     ~                           
+Compilation failed
+819fc91
