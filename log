@@ -542,3 +542,16 @@ Fri 25 Aug 2023 11:11:46 PM UTC:
  tests:  11|1
 total_score: 55/70
 71de2aa
+Fri 25 Aug 2023 11:16:37 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:119:31: error: expected ‘;’ before ‘}’ token
+  119 |     return list->current->data
+      |                               ^
+      |                               ;
+  120 |   }
+      |   ~                            
+Compilation failed
+c89e3ef
